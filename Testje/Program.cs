@@ -10,6 +10,8 @@ namespace Testje
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Yee");
             Console.ReadKey();
 
